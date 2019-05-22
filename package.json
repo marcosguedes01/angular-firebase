@@ -5,9 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-prd": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "publish": "firebase deploy --token 1/dkjiOjFNUshq8Ebtu41Cl7d-o1QzbSQeLARTPtWOzOk"
   },
   "private": true,
   "dependencies": {
