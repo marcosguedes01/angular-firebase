@@ -48,9 +48,9 @@ export class FirebaseDatabaseService {
       if (FirebaseDatabaseService.firebase != null) return;
 
       let config = {
-        apiKey: "<API_KEY>",
-        authDomain: "<PROJECT_ID>.firebaseapp.com",
-        databaseURL: "https://<DATABASE_NAME>.firebaseio.com"
+        apiKey: "AIzaSyC7HSvcOLJ20noTgtvTDr7CBS2OFhU6g4E",
+        authDomain: "infinitescrolltest.firebaseapp.com",
+        databaseURL: "https://infinitescrolltest.firebaseio.com"
       };
       
       FirebaseDatabaseService.firebase = initializeApp(config);
